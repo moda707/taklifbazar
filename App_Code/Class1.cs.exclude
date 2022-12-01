@@ -1,0 +1,60 @@
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Security.Cryptography;
+using System.Text;
+using System.Web;
+
+namespace HasinReservation.Utility
+{
+    public class QueryStringModule : IHttpModule
+    {
+
+        //#region IHttpModule Members
+
+        //public void Dispose()
+        //{
+        //    // Nothing to dispose
+        //}
+
+        //public void Init(HttpApplication context)
+        //{
+        //    context.BeginRequest += new EventHandler(context_BeginRequest);
+        //}
+
+        //#endregion
+
+        //private const string PARAMETER_NAME = "enc=";
+        //private const string ENCRYPTION_KEY = "key";
+
+        //private void context_BeginRequest(object sender, EventArgs e)
+        //{
+        //    HttpContext context = HttpContext.Current;
+        //    if (context.Request.Url.OriginalString.Contains("aspx") &&
+        //        context.Request.RawUrl.Contains("?"))
+        //    {
+        //        string query = ExtractQuery(context.Request.RawUrl);
+        //        string path = GetVirtualPath();
+
+        //        if (query.StartsWith(PARAMETER_NAME, StringComparison.OrdinalIgnoreCase))
+        //        {
+        //            // Decrypts the query string and rewrites the path.
+        //            string rawQuery = query.Replace(PARAMETER_NAME, string.Empty);
+        //            string decryptedQuery = Decrypt(rawQuery);
+        //            context.RewritePath(path, string.Empty, decryptedQuery);
+        //        }
+        //        else if (context.Request.HttpMethod == "GET")
+        //        {
+        //            // Encrypt the query string and redirects to the encrypted URL.
+        //            // Remove if you don't want all query strings to be encrypted automatically.
+        //            if (query != "")
+        //            {
+        //                string encryptedQuery = Encrypt(query);
+        //                context.Response.Redirect(path + encryptedQuery);
+        //            }
+        //        }
+        //    }
+        //}
+    }
+}

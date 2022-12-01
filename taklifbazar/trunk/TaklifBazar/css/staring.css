@@ -1,0 +1,48 @@
+.starRating{
+  display        : inline-block;
+  position       : relative;
+  height         : 18px;
+  background     : url('../images/star-gray.png') repeat-x 0 0;
+  vertical-align : bottom;
+}
+
+.starRating div{
+  float    : left;
+  position : relative;
+  height   : 19px;
+}
+
+.starRating input{
+  position : relative;
+  z-index  : 1;
+  width    : 19px;
+  height   : 19px;
+  margin   : 0;
+  padding  : 0;
+  opacity  : 0;
+}
+
+.starRating label{
+  position : absolute;
+  top      : 0;
+  left     : 0;
+  width    : 100%;
+  height   : 19px;
+}
+
+.starRating span{
+  display : none;
+}
+
+.starRating       input:checked       + label,
+.starRating:hover input:checked:hover + label{
+  background : url('../images/star-gold.png') repeat-x 0 0px;
+}
+
+.starRating:hover input:checked + label{
+  background : transparent;
+}
+
+.starRating:hover input:hover + label{
+  background : url('../images/star-gold.png') repeat-x 0 -0px;
+}

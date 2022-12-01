@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TaklifBazar(2)", "http://localhost:23524", "{E83ECBEE-57E8-4661-815D-3F0D65837D8C}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_23524"
+		Debug.AspNetCompiler.PhysicalPath = "TaklifBazar\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_23524\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_23524"
+		Release.AspNetCompiler.PhysicalPath = "TaklifBazar\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_23524\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "TaklifBazar\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFConvertor", "PDFConvertor\PDFConvertor.csproj", "{BCF4777D-8819-42BB-9534-8019791FDC6E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E83ECBEE-57E8-4661-815D-3F0D65837D8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E83ECBEE-57E8-4661-815D-3F0D65837D8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E83ECBEE-57E8-4661-815D-3F0D65837D8C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E83ECBEE-57E8-4661-815D-3F0D65837D8C}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{BCF4777D-8819-42BB-9534-8019791FDC6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCF4777D-8819-42BB-9534-8019791FDC6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCF4777D-8819-42BB-9534-8019791FDC6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCF4777D-8819-42BB-9534-8019791FDC6E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal
